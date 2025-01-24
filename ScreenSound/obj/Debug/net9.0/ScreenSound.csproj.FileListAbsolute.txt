@@ -1,0 +1,14 @@
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\bin\Debug\net9.0\ScreenSound.exe
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\bin\Debug\net9.0\ScreenSound.deps.json
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\bin\Debug\net9.0\ScreenSound.runtimeconfig.json
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\bin\Debug\net9.0\ScreenSound.dll
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\bin\Debug\net9.0\ScreenSound.pdb
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.AssemblyInfo.cs
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.dll
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\refint\ScreenSound.dll
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.pdb
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.genruntimeconfig.cache
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ref\ScreenSound.dll

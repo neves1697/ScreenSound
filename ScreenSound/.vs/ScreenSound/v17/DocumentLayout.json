@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\ScreenSound\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\ex4\\listasbuscadadoscadastrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Exercicios\\Program.cs",
+              "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Program.cs",
+              "RelativeToolTip": "..\\Exercicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:03:18.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListasBuscaDadosCadastrados.cs",
+              "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex4\\ListasBuscaDadosCadastrados.cs",
+              "RelativeDocumentMoniker": "..\\Exercicios\\Ex4\\ListasBuscaDadosCadastrados.cs",
+              "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex4\\ListasBuscaDadosCadastrados.cs",
+              "RelativeToolTip": "..\\Exercicios\\Ex4\\ListasBuscaDadosCadastrados.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:44:01.432Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
