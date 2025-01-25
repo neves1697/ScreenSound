@@ -5,7 +5,7 @@ class Program
 {
     // Screen Sound
     string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
-    List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso" };
+    //List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso" };
     List<string> listaBandas = new List<string>();
 
     static void Main(string[] args)
@@ -93,6 +93,7 @@ class Program
         {
             Console.WriteLine($"Banda: {listaBandas[i]} ");
         }
+
         Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
         Console.ReadKey();
         Console.Clear();

@@ -12,3 +12,4 @@ C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\Exercic
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\Exercicios\obj\Debug\net9.0\Exercicios.pdb
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\Exercicios\obj\Debug\net9.0\Exercicios.genruntimeconfig.cache
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\Exercicios\obj\Debug\net9.0\ref\Exercicios.dll
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\Exercicios\obj\Debug\net9.0\Exercicios.sourcelink.json

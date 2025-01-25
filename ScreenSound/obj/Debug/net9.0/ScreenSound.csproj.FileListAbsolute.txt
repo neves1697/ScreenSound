@@ -12,3 +12,4 @@ C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenS
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.pdb
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.genruntimeconfig.cache
 C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ref\ScreenSound.dll
+C:\Cursos\Alura\1.2-Aprenda a programar em C# com Orientação a Objetos\ScreenSound\obj\Debug\net9.0\ScreenSound.sourcelink.json
