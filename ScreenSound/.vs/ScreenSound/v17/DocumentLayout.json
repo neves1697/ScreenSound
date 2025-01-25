@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\ScreenSound\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\ex06\\listabuscanumerospares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\ex05\\listasoperacoesmatematicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,6 +28,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ListaBuscaNumerosPares.cs",
+              "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex06\\ListaBuscaNumerosPares.cs",
+              "RelativeDocumentMoniker": "..\\Exercicios\\Ex06\\ListaBuscaNumerosPares.cs",
+              "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex06\\ListaBuscaNumerosPares.cs",
+              "RelativeToolTip": "..\\Exercicios\\Ex06\\ListaBuscaNumerosPares.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T20:40:29.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ListasOperacoesMatematicas.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex05\\ListasOperacoesMatematicas.cs",
               "RelativeDocumentMoniker": "..\\Exercicios\\Ex05\\ListasOperacoesMatematicas.cs",
@@ -37,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Program.cs",
               "RelativeDocumentMoniker": "..\\Exercicios\\Program.cs",
@@ -49,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
