@@ -50,6 +50,8 @@ public class ListaBuscaNumerosPares
         }
     }
 
+    // Plus - Desafio pessoal que fiz para mim.
+
     public void ValidaNumerosImparesComForSimples()
     {
         Console.WriteLine("\n**** Lista de números ímpares**** \n");
