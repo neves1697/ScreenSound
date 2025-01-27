@@ -98,9 +98,4 @@ public class Dicionarios
         while (opcao != 0);
 
     }
-    
-    public void teste()
-    {
-
-    }
 }
