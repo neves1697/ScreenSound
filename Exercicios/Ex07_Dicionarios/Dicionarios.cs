@@ -1,13 +1,6 @@
 ﻿namespace Exercicios.Ex07_Dicionarios;
-
 /*
 01 - Criar um dicionário que represente um aluno, com uma lista de notas, e mostre a média de suas notas na tela.
-02 - Criar um programa que gerencie o estoque de uma loja. Utilize um dicionário para armazenar produtos e suas quantidades em estoque e 
-mostre, a partir do nome de um produto, sua quantidade em estoque.
-03 - Crie um programa que implemente um quiz simples de perguntas e respostas. Utilize um dicionário para armazenar as perguntas e as respostas 
-corretas.
-04 - Criar um programa que simule um sistema de login utilizando um dicionário para armazenar nomes de usuário e senhas.
-
 -- #### Passos ####
 - Criar um dicionário representando um aluno com uma lista de notas
 - Mostrar média dos alunos no console
@@ -51,7 +44,6 @@ public class Dicionarios
             Console.WriteLine($"O aluno: {aluno} não foi encontrado, digite qualquer tecla para voltar ao menu");
             Console.ReadKey();
         }
-
     }
 
     public void ExibirNotasAlunos()
@@ -64,6 +56,19 @@ public class Dicionarios
         }
     }
 
+    public void MediaNotasAlunos()
+    {
+        foreach (var aluno in listaMediaAlunos)
+        {
+            string nome = aluno.Key;
+            List<int> notas = aluno.Value;
+            double soma = notas.Sum();
+            double media = notas.Count > 0 ? soma / notas.Count : 0;
+            Console.WriteLine($"Aluno: {nome}\nNotas: {string.Join(", ", notas)}\nMédia: {media:F2}");
+            
+        }
+    }
+
     public void Menu()
     {
         int opcao;
@@ -73,6 +78,7 @@ public class Dicionarios
             "2 - Cadastrar notas para alunos\n" +
             "3 - Exibir alunos cadastrados\n" +
             "4 - Exibir Notas dos Alunos\n" +
+            "5 - Média Notas Alunos\n" +
             "0 - Sair\n");
             opcao = int.Parse(Console.ReadLine()!);
             switch (opcao)
@@ -89,7 +95,9 @@ public class Dicionarios
                 case 4:
                     ExibirNotasAlunos();
                     break;
-
+                case 5:
+                    MediaNotasAlunos();
+                    break;
                 default:
                     Console.WriteLine("Saindo...");
                     break;

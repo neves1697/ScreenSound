@@ -2,6 +2,7 @@
 using Exercicios.Ex06;
 using Exercicios.Ex4;
 using Exercicios.Ex07_Dicionarios;
+using Exercicios.Ex08_Dicionarios_Estoque;
 
 /*
 ListasBuscaDadosCadastrados l = new();
@@ -20,7 +21,10 @@ l.ValidaNumerosImparesComForSimples();
 l.QuantidadeNumerosParesIntervalo();
 l.QuantidadeNumerosImparesIntervalo();
 */
-
+/*
 Dicionarios d = new Dicionarios();
-//d.CadastrarAlunos();
 d.Menu();
+*/
+
+Estoque e = new Estoque();
+e.Menu();
