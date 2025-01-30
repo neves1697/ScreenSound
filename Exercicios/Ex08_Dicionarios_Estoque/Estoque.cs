@@ -15,14 +15,37 @@ public class Estoque
 
     public void CadastrarProdutos()
     {
-        Console.Clear();
+        //Console.Clear();
         Console.Write("Digite o produto: ");
         string produto = Console.ReadLine()!;
         listaProdutos.Add(produto, new List<int>());
     }
 
+    public void ValidaListaVaza(Dictionary<string, List<int>> listaRecebida)
+    {
+        if (listaRecebida.Count == 0)
+        {
+            Console.Clear();
+            Console.WriteLine("Lista vazia...\n" +
+                "Cadastre produtos\n");
+            Console.WriteLine("Cadastrar produtos?\n" +
+                "1 - Sim\n" +
+                "2 - Não\n");
+            int opcao = int.Parse(Console.ReadLine()!);
+            if (opcao == 1)
+            {
+                CadastrarProdutos();
+            }
+            else if (opcao == 2)
+            {
+                Menu();
+            }
+        }
+    }
+
     public void ExibirProdutosCadastrados()
     {
+        ValidaListaVaza(listaProdutos);
         foreach (var produto in listaProdutos.Keys)
         {
             Console.WriteLine($"Produto: {produto} ");
@@ -31,7 +54,7 @@ public class Estoque
 
     public void CadastrarEstoqueProdutos()
     {
-        Console.Clear();
+        ValidaListaVaza(listaProdutos);
         Console.Write("Digite o produto: ");
         string produto = Console.ReadLine()!;
 
@@ -46,7 +69,7 @@ public class Estoque
 
     public void BuscaProdutosCadastrados()
     {
-        Console.Clear();
+        ValidaListaVaza(listaProdutos);
         Console.Write("Digite o produto: ");
         string produto = Console.ReadLine()!;
 
@@ -55,11 +78,30 @@ public class Estoque
             List<int> quantidadeProduto = listaProdutos[produto];
             Console.WriteLine($"Produto: {produto}\nEstoque: {quantidadeProduto.Sum()}\n ");
         }
+        else
+        {
+            Console.WriteLine("Não há este produto cadastrado...\n");
+            Console.WriteLine("Cadastrar?\n" +
+                "1 - Sim\n" +
+                "2 - Não\n");
+            int opcao = int.Parse(Console.ReadLine()!);
+            if (opcao == 1)
+            {
+                CadastrarProdutos();
+            }
+            else if (opcao == 2)
+            {
+                Console.WriteLine("Voltando para a tela inicial...\n");
+                Thread.Sleep(2000);
+                Menu();
+                Console.Clear();
+            }
+        }
     }
 
     public void ExibirTodasAsInformacoesProdutos()
     {
-        Console.Clear();
+        ValidaListaVaza(listaProdutos);
         foreach (var produtos in listaProdutos)
         {
             string descricaoProduto = produtos.Key;
