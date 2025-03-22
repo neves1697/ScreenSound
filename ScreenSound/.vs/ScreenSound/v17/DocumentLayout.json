@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\ScreenSound\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\10_dicionario_login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\ex08_dicionarios_estoque\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\ex07_dicionarios\\dicionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50D78E37-FE7C-4B33-A793-2DBEFD30B281}|..\\Exercicios\\Exercicios.csproj|c:\\cursos\\alura\\1.2-aprenda a programar em c# com orienta\u00E7\u00E3o a objetos\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Program.cs",
               "RelativeDocumentMoniker": "..\\Exercicios\\Program.cs",
               "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Program.cs",
               "RelativeToolTip": "..\\Exercicios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T07:47:30.424Z",
               "EditorCaption": ""
@@ -37,19 +40,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\10_Dicionario_Login\\Login.cs",
+              "RelativeDocumentMoniker": "..\\Exercicios\\10_Dicionario_Login\\Login.cs",
+              "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\10_Dicionario_Login\\Login.cs",
+              "RelativeToolTip": "..\\Exercicios\\10_Dicionario_Login\\Login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T23:34:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex08_Dicionarios_Estoque\\Estoque.cs",
               "RelativeDocumentMoniker": "..\\Exercicios\\Ex08_Dicionarios_Estoque\\Estoque.cs",
               "ToolTip": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex08_Dicionarios_Estoque\\Estoque.cs",
               "RelativeToolTip": "..\\Exercicios\\Ex08_Dicionarios_Estoque\\Estoque.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAmwEgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T07:38:03.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T07:38:03.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dicionarios.cs",
               "DocumentMoniker": "C:\\Cursos\\Alura\\1.2-Aprenda a programar em C# com Orienta\u00E7\u00E3o a Objetos\\Exercicios\\Ex07_Dicionarios\\Dicionarios.cs",
               "RelativeDocumentMoniker": "..\\Exercicios\\Ex07_Dicionarios\\Dicionarios.cs",
@@ -57,8 +72,7 @@
               "RelativeToolTip": "..\\Exercicios\\Ex07_Dicionarios\\Dicionarios.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T07:41:16.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T07:41:16.743Z"
             }
           ]
         }
