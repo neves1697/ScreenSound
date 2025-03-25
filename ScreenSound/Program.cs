@@ -57,7 +57,7 @@ class Program
                     AvaliarBanda();
                     break;
                 case 4:
-                    Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+                    CalcularMediaBandas();
                     break;
                 case -1:
                     Console.WriteLine("Tchau tchau :)");
@@ -139,6 +139,8 @@ class Program
             //pegando a banda pelo colchete e adicionando a nota à ela.
             bandasRegistradas[nomeBanda].Add(nota);
             Console.WriteLine($"Nota {nota} registrada para a banda {nomeBanda} ");
+            Console.WriteLine("Digite qualquer tecla para voltar ao menu inicial\n");
+            ExibirOpcoesDoMenu();
         }
         else
         {
@@ -149,4 +151,47 @@ class Program
             ExibirOpcoesDoMenu();
         }
     }
+
+    public void CalcularMediaBandas()
+    {
+        Console.Clear();
+        ValidarSeBandasForVazio(bandasRegistradas);
+        ExibirTituloOpcoes("Média Bandas");
+        Console.Write("Digite o nome da banda para ver a média de notas:");
+        string bandaDigitada = Console.ReadLine()!;
+
+        if (bandasRegistradas.ContainsKey(bandaDigitada))
+        {
+
+            foreach (var valoresDicionario in bandasRegistradas)
+            {
+                string nomeBanda = valoresDicionario.Key;
+                List<int> mediaBanda = valoresDicionario.Value;
+                Console.WriteLine($"Banda: {nomeBanda}\n" +
+                    $"Média Da Banda: {mediaBanda.Average()}\n ");
+            }
+            ExibirOpcoesDoMenu();
+        }
+
+    }
+
+    public bool ValidarSeBandasForVazio(Dictionary<string, List<int>> lista)
+    {
+        if (lista.Count == 0)
+        {
+            Console.WriteLine("Lista Vazia...\n" +
+                "Cadastre uma nova banda\n");
+            Thread.Sleep(2000);
+            RegistrarBandas();
+            return false;
+        }
+        return true;
+    }
 }
+
+/*
+Desafio 
+Criar a opção 4. Exibir a média de uma banda.
+Criar uma função para exibir a média. Limpar o terminal, exibir o título, perguntar para o usuário
+qual a banda ela quer ver a média. Precisaremos ver se a banda existe no dicionário e se estiver , exibir a média dela.
+*/

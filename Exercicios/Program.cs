@@ -4,6 +4,7 @@ using Exercicios.Ex4;
 using Exercicios.Ex07_Dicionarios;
 using Exercicios.Ex08_Dicionarios_Estoque;
 using Exercicios._10_Dicionario_Login;
+using Exercicios._11_MediaCarrosVendidos;
 
 /*
 ListasBuscaDadosCadastrados l = new();
@@ -30,5 +31,7 @@ d.Menu();
 //Estoque e = new Estoque();
 //e.Menu();
 
-Login l =  new Login();
-l.Menu();
+//Login l =  new Login();
+//l.Menu();
+MediaCarros m = new MediaCarros();
+m.CalculaMedia();
